@@ -1,5 +1,8 @@
 # 🎯 KEV Tracker
 
+Dashboard
+https://tayvensec.github.io/kev-tracker/
+
 Daily automated tracking of the **CISA Known Exploited Vulnerabilities (KEV) catalog** — the authoritative list of CVEs confirmed to be exploited in the wild.
 
 New KEV entries are the highest-priority patching signal that exists: these aren't theoretical vulnerabilities, they're being used in real attacks right now.
