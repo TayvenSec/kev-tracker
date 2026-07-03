@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KEV Tracker — CISA Known Exploited Vulnerabilities</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px; line-height: 1.6; color: #1a1a2e; background: #f8f9fa; }
+header { background: #1a1a2e; color: #fff; padding: 2rem 1rem; text-align: center; }
+header h1 { font-size: 1.8rem; letter-spacing: -0.5px; }
+header p { color: #a0aec0; margin-top: 0.5rem; font-size: 0.95rem; }
+.container { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
+.stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; }
+.stat { flex: 1; min-width: 150px; background: #fff; border: 1px solid #e2e8f0; border-radius: 8px;
+  padding: 1rem; text-align: center; }
+.stat .num { font-size: 1.9rem; font-weight: 700; color: #1a1a2e; }
+.stat .label { font-size: 0.8rem; color: #718096; text-transform: uppercase; letter-spacing: 0.05em; }
+.stat.danger .num { color: #c53030; }
+.section-title { font-size: 1.1rem; font-weight: 600; color: #4a5568; margin: 2rem 0 0.75rem;
+  border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e2e8f0;
+  border-radius: 8px; overflow: hidden; font-size: 0.88rem; }
+th { text-align: left; padding: 0.55rem 0.75rem; background: #edf2f7; color: #4a5568;
+  font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+td { padding: 0.6rem 0.75rem; border-top: 1px solid #e2e8f0; vertical-align: top; }
+.cve { font-weight: 600; white-space: nowrap; }
+.ransom { color: #c53030; font-weight: 700; font-size: 0.75rem; }
+.due { white-space: nowrap; color: #c05621; }
+.archive-list a { display: inline-block; margin: 0.25rem 0.5rem 0.25rem 0; padding: 0.35rem 0.75rem;
+  border: 1px solid #e2e8f0; border-radius: 5px; background: #fff; color: #4a5568;
+  text-decoration: none; font-size: 0.85rem; }
+.archive-list a:hover { background: #edf2f7; }
+footer { text-align: center; padding: 2rem 1rem; color: #a0aec0; font-size: 0.82rem;
+  border-top: 1px solid #e2e8f0; margin-top: 3rem; }
+footer a { color: #718096; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎯 KEV Tracker</h1>
+  <p>CISA Known Exploited Vulnerabilities — updated daily · Catalog date: 2026-07-01T19:00:06.9016Z</p>
+</header>
+<div class="container">
+  <div class="stat-row">
+    <div class="stat"><div class="num">1631</div><div class="label">Total KEV CVEs</div></div>
+    <div class="stat"><div class="num">21</div><div class="label">Added last 30 days</div></div>
+    <div class="stat danger"><div class="num">2</div><div class="label">Recent w/ ransomware use</div></div>
+    <div class="stat danger"><div class="num">1</div><div class="label">Remediation due ≤14 days</div></div>
+  </div>
+
+  <p class="section-title">Added in the Last 30 Days</p>
+  <table>
+    <thead><tr><th>CVE</th><th>Vendor / Product</th><th>Vulnerability</th><th>Added</th><th>Due</th></tr></thead>
+    <tbody><tr><td class='cve'>CVE-2026-45659</td><td>Microsoft SharePoint Server</td><td>Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability </td><td>2026-07-01</td><td class='due'>2026-07-04</td></tr>
+<tr><td class='cve'>CVE-2026-48558</td><td>SimpleHelp  SimpleHelp</td><td>SimpleHelp Authentication Bypass Vulnerability </td><td>2026-06-29</td><td class='due'>2026-07-02</td></tr>
+<tr><td class='cve'>CVE-2026-12569</td><td>PTC Windchill and FlexPLM</td><td>PTC Windchill and FlexPLM Improper Input Validation Vulnerability </td><td>2026-06-25</td><td class='due'>2026-06-28</td></tr>
+<tr><td class='cve'>CVE-2026-20230</td><td>Cisco Unified Communications Manager</td><td>Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability </td><td>2026-06-25</td><td class='due'>2026-06-28</td></tr>
+<tr><td class='cve'>CVE-2025-67038</td><td>Lantronix EDS5000</td><td>Lantronix EDS5000 Code Injection Vulnerability </td><td>2026-06-23</td><td class='due'>2026-06-26</td></tr>
+<tr><td class='cve'>CVE-2026-34910</td><td>Ubiquiti UniFi OS</td><td>Ubiquiti UniFi OS Improper Input Validation Vulnerability </td><td>2026-06-23</td><td class='due'>2026-06-26</td></tr>
+<tr><td class='cve'>CVE-2026-34909</td><td>Ubiquiti UniFi OS</td><td>Ubiquiti UniFi OS Path Traversal Vulnerability </td><td>2026-06-23</td><td class='due'>2026-06-26</td></tr>
+<tr><td class='cve'>CVE-2026-34908</td><td>Ubiquiti UniFi OS</td><td>Ubiquiti UniFi OS Improper Access Control Vulnerability </td><td>2026-06-23</td><td class='due'>2026-06-26</td></tr>
+<tr><td class='cve'>CVE-2026-20253</td><td>Splunk Enterprise</td><td>Splunk Enterprise Missing Authentication for Critical Function Vulnerability </td><td>2026-06-18</td><td class='due'>2026-06-21</td></tr>
+<tr><td class='cve'>CVE-2026-48907</td><td>Widget Factory Joomla Content Editor </td><td>Widget Factory Joomla Content Editor Improper Access Control Vulnerability </td><td>2026-06-16</td><td class='due'>2026-06-19</td></tr>
+<tr><td class='cve'>CVE-2026-54420</td><td>LiteSpeed cPanel Plugin</td><td>LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability </td><td>2026-06-15</td><td class='due'>2026-06-18</td></tr>
+<tr><td class='cve'>CVE-2026-20262</td><td>Cisco Catalyst SD-WAN Manager</td><td>Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability </td><td>2026-06-15</td><td class='due'>2026-06-29</td></tr>
+<tr><td class='cve'>CVE-2026-35273</td><td>Oracle  PeopleSoft Enterprise PeopleTools</td><td>Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability <span class="ransom">RANSOMWARE</span></td><td>2026-06-12</td><td class='due'>2026-06-15</td></tr>
+<tr><td class='cve'>CVE-2026-10520</td><td>Ivanti Sentry</td><td>Ivanti Sentry OS Command Injection Vulnerability </td><td>2026-06-11</td><td class='due'>2026-06-14</td></tr>
+<tr><td class='cve'>CVE-2026-11645</td><td>Google Chromium V8</td><td>Google Chromium V8 Out-of-Bounds Read and Write Vulnerability </td><td>2026-06-09</td><td class='due'>2026-06-23</td></tr>
+<tr><td class='cve'>CVE-2026-7473</td><td>Arista Extensible Operating System</td><td>Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability </td><td>2026-06-09</td><td class='due'>2026-06-23</td></tr>
+<tr><td class='cve'>CVE-2026-20245</td><td>Cisco Catalyst SD-WAN Manager</td><td>Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability </td><td>2026-06-09</td><td class='due'>2026-06-23</td></tr>
+<tr><td class='cve'>CVE-2026-42271</td><td>BerriAI LiteLLM</td><td>BerriAI LiteLLM Command Injection Vulnerability </td><td>2026-06-08</td><td class='due'>2026-06-22</td></tr>
+<tr><td class='cve'>CVE-2026-50751</td><td>Check Point Security Gateway</td><td>Check Point Security Gateway Improper Authentication Vulnerability <span class="ransom">RANSOMWARE</span></td><td>2026-06-08</td><td class='due'>2026-06-11</td></tr>
+<tr><td class='cve'>CVE-2026-28318</td><td>SolarWinds Serv-U</td><td>SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability </td><td>2026-06-05</td><td class='due'>2026-06-19</td></tr>
+<tr><td class='cve'>CVE-2026-45247</td><td>Mirasvit Mirasvit Full Page Cache Warmer</td><td>Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability </td><td>2026-06-03</td><td class='due'>2026-06-06</td></tr></tbody>
+  </table>
+
+  <p class="section-title">Remediation Due Within 14 Days</p>
+  <table>
+    <thead><tr><th>CVE</th><th>Vendor / Product</th><th>Vulnerability</th><th>Added</th><th>Due</th></tr></thead>
+    <tbody><tr><td class='cve'>CVE-2026-45659</td><td>Microsoft SharePoint Server</td><td>Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability </td><td>2026-07-01</td><td class='due'>2026-07-04</td></tr></tbody>
+  </table>
+
+  <p class="section-title">Monthly Addition Logs</p>
+  <div class="archive-list"><a href="https://github.com/TayvenSec/kev-tracker/blob/main/data/additions/2026-07-additions.md">2026-07</a></div>
+
+  <p style="margin-top:2rem;font-size:0.85rem;color:#718096;">
+    Data: official <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>.
+    CVEs listed here are confirmed exploited in the wild — patch these first.
+    Due dates are CISA BOD 22-01 deadlines for US federal agencies, and a strong prioritisation signal for everyone else.
+  </p>
+</div>
+<footer>
+  <p><a href="https://github.com/TayvenSec/kev-tracker">View on GitHub</a> ·
+  <a href="https://tayvensec.com">Tayven Cyber Security</a> ·
+  <a href="https://github.com/TayvenSec/patch-tuesday-tracker">Patch Tuesday Tracker</a></p>
+</footer>
+</body>
+</html>
