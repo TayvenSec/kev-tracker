@@ -1,7 +1,39 @@
 # KEV Additions — July 2026
 
-CVEs added to the CISA Known Exploited Vulnerabilities catalog this month: **2**
+CVEs added to the CISA Known Exploited Vulnerabilities catalog this month: **6**
 
+
+## CVE-2026-56290 — Joomlack Page Builder Improper Access Control Vulnerability
+- **Vendor/Product:** Joomlack / Page Builder
+- **Added to KEV:** 2026-07-07
+- **Remediation due:** 2026-07-10
+- **Known ransomware use:** Unknown
+- **Description:** Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+## CVE-2026-55255 — Langflow Authorization Bypass Through User-Controlled Key Vulnerability
+- **Vendor/Product:** Langflow / Langflow
+- **Added to KEV:** 2026-07-07
+- **Remediation due:** 2026-07-10
+- **Known ransomware use:** Unknown
+- **Description:** Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+## CVE-2026-48908 — JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability
+- **Vendor/Product:** JoomShaper / SP Page Builder
+- **Added to KEV:** 2026-07-07
+- **Remediation due:** 2026-07-10
+- **Known ransomware use:** Unknown
+- **Description:** JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+## CVE-2026-48282 — Adobe ColdFusion Path Traversal Vulnerability
+- **Vendor/Product:** Adobe / ColdFusion
+- **Added to KEV:** 2026-07-07
+- **Remediation due:** 2026-07-10
+- **Known ransomware use:** Unknown
+- **Description:** Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 ## CVE-2026-45659 — Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability
 - **Vendor/Product:** Microsoft / SharePoint Server
