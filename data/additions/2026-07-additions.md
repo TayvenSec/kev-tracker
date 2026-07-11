@@ -1,7 +1,23 @@
 # KEV Additions — July 2026
 
-CVEs added to the CISA Known Exploited Vulnerabilities catalog this month: **6**
+CVEs added to the CISA Known Exploited Vulnerabilities catalog this month: **8**
 
+
+## CVE-2026-56291 — Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability
+- **Vendor/Product:** Balbooa / Forms
+- **Added to KEV:** 2026-07-10
+- **Remediation due:** 2026-07-13
+- **Known ransomware use:** Unknown
+- **Description:** Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+## CVE-2026-48939 — iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability
+- **Vendor/Product:** iCagenda / iCagenda
+- **Added to KEV:** 2026-07-10
+- **Remediation due:** 2026-07-13
+- **Known ransomware use:** Unknown
+- **Description:** iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 ## CVE-2026-56290 — Joomlack Page Builder Improper Access Control Vulnerability
 - **Vendor/Product:** Joomlack / Page Builder
