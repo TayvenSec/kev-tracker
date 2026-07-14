@@ -1,7 +1,15 @@
 # KEV Additions — July 2026
 
-CVEs added to the CISA Known Exploited Vulnerabilities catalog this month: **8**
+CVEs added to the CISA Known Exploited Vulnerabilities catalog this month: **9**
 
+
+## CVE-2008-4128 — Cisco IOS Cross-Site Request Forgery Vulnerability
+- **Vendor/Product:** Cisco / IOS
+- **Added to KEV:** 2026-07-13
+- **Remediation due:** 2026-07-16
+- **Known ransomware use:** Unknown
+- **Description:** Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain "show privilege" command to the /level/15/exec/- URI, and (2) a certain "alias exec" command to the /level/15/exec/-/configure/http URI.
+- **Required action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 ## CVE-2026-56291 — Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability
 - **Vendor/Product:** Balbooa / Forms
